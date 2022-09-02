@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+
+        android:textColor="@color/purple_700"
+        android:gravity="center"
+        android:textSize="34dp"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        app:startIconDrawable="@drawable/ic_baseline_call_24"
+        android:hint="9325417071"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/em_edt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:textSize="28dp"
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="40dp"
+        app:startIconDrawable="@drawable/ic_baseline_lock_24"
+        android:hint="Niksan@1998"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pass_edt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="28dp"
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="28dp"
+        android:text="LOGIN"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/teal_700"
+        android:id="@+id/login"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:text="Signup"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/teal_700"
+        android:id="@+id/signup"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_margin="20dp"
+        android:hint="response"
+        android:textSize="28dp"
+        android:textColor="@color/teal_700"
+        android:id="@+id/response_text"/>
+
+
+
+</LinearLayout>
